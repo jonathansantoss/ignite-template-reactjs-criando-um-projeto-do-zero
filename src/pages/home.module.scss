@@ -1,1 +1,140 @@
-// TODO
+.container {
+  max-width: 1200px;
+  position: absolute;
+  height: 108px;
+  width: 700px;
+  left: 370px;
+  top: 120px;
+
+  button {
+    position: absolute;
+    width: 176px;
+    height: 22px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    text-align: justify;
+
+    color: #ff57b2;
+
+    background: transparent;
+    border-color: transparent;
+  }
+}
+
+.posts {
+  width: 700px;
+  height: 108px;
+
+  a {
+    width: auto;
+    height: auto;
+    display: block;
+    text-decoration: none;
+
+    margin-bottom: 7rem;
+
+    strong {
+      font-family: Inter;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 28px;
+      line-height: 34px;
+      text-align: justify;
+      letter-spacing: -0.5px;
+      color: #f8f8f8;
+    }
+
+    p {
+      position: absolute;
+      left: 0%;
+      right: 28.57%;
+      top: 38.89%;
+      bottom: 40.74%;
+
+      width: 500px;
+      height: 22px;
+      top: 42px;
+
+      font-family: Inter;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 22px;
+
+      text-align: justify;
+
+      color: #d7d7d7;
+    }
+
+    .info {
+      display: flex;
+      position: absolute;
+      left: 0%;
+      right: 62.43%;
+
+      bottom: 0%;
+
+      width: 263px;
+      height: 20px;
+      top: 88px;
+
+      color: #bbbbbb;
+
+      .calendar {
+        width: 109px;
+        height: 20px;
+
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+
+        .iconCalendar {
+          width: 20px;
+          height: 20px;
+        }
+
+        time {
+          width: auto;
+          height: auto;
+
+          position: absolute;
+          left: 23%;
+          top: 0;
+        }
+      }
+
+      .user {
+        width: 130px;
+        height: 20px;
+        left: 0px;
+
+        .iconUser {
+          width: 20px;
+          height: 20px;
+        }
+
+        p {
+          width: 102px;
+          height: 17px;
+
+          position: absolute;
+          left: 23%;
+          top: 0%;
+
+          font-family: Inter;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 17px;
+        }
+      }
+    }
+  }
+}

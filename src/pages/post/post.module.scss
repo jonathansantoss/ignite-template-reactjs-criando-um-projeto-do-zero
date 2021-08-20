@@ -1,1 +1,175 @@
-// TODO
+.container {
+  position: relative;
+  width: 1440px;
+  height: 2773px;
+
+  background: #1a1d23;
+
+  img {
+    position: absolute;
+    width: 1440px;
+    height: 400px;
+    top: 105px;
+  }
+
+  main {
+    width: 721px;
+    height: 2108px;
+    left: 349px;
+    top: 585px;
+
+    .info {
+      position: absolute;
+      width: 357px;
+      height: 20px;
+      left: 21px;
+      top: 82px;
+
+      display: flex;
+
+      color: #bbbbbb;
+
+      .calendar {
+        width: 109px;
+        height: 20px;
+
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+
+        .iconCalendar {
+          width: 20px;
+          height: 20px;
+        }
+
+        time {
+          width: auto;
+          height: auto;
+
+          position: absolute;
+          left: 23%;
+          top: 0;
+        }
+      }
+
+      .user {
+        width: 130px;
+        height: 20px;
+        left: 0px;
+
+        .iconUser {
+          width: 20px;
+          height: 20px;
+        }
+
+        p {
+          width: 102px;
+          height: 17px;
+
+          position: absolute;
+          left: 23%;
+          top: 0%;
+
+          font-family: Inter;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 17px;
+        }
+      }
+
+      .clock {
+        width: 109px;
+        height: 20px;
+
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+
+        .iconclock {
+          width: 20px;
+          height: 20px;
+        }
+
+        time {
+          width: auto;
+          height: auto;
+
+          position: absolute;
+          left: 23%;
+          top: 0;
+        }
+      }
+    }
+
+    strong {
+      position: absolute;
+      width: 700px;
+      height: 58px;
+      top: 0px;
+      left: 21px;
+
+      font-family: Inter;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 58px;
+      letter-spacing: -0.5px;
+
+      color: #f8f8f8;
+
+      padding-bottom: 1.5rem;
+    }
+
+    .content {
+      position: absolute;
+      width: 721px;
+      height: 1942px;
+      top: 166px;
+
+      font-family: Inter;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 140%;
+
+      text-align: justify;
+
+      color: #f8f8f8;
+
+      div {
+        width: auto;
+        height: auto;
+
+        .header {
+          width: auto;
+          height: auto;
+          padding-bottom: 1.5rem;
+          left: 21px;
+          .body {
+            width: auto;
+            height: auto;
+            padding-top: 1.5rem;
+
+            p {
+              width: auto;
+              height: auto;
+
+              font-family: Inter;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 18px;
+              line-height: 140%;
+
+              color: #d7d7d7;
+            }
+          }
+        }
+      }
+    }
+  }
+}
